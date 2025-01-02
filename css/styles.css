@@ -102,6 +102,10 @@ footer {
   border-radius: 2px;
 }
 
+.studio-line {
+  color: #404bbf;
+}
+
 .studio-line::after {
   background-color: #404bbf;
 }
@@ -220,10 +224,6 @@ footer {
   padding: 120px 0;
 }
 
-.goal-container {
-  display: flex;
-}
-
 .goal-svg {
   display: flex;
   border: 1px solid #8e8f99;
@@ -231,9 +231,7 @@ footer {
   width: 264px;
   height: 112px;
   background: #f4f4fd;
-  display: inline-flex;
   align-items: center;
-  align-self: center;
   justify-content: center;
   margin-bottom: 8px;
 }
@@ -507,7 +505,8 @@ footer {
 }
 .social-list {
   display: flex;
-  column-gap: 16px;
+  gap: 16px;
+  fill: #f4f4fd;
 }
 .social-item {
 }
