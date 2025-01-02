@@ -178,6 +178,22 @@ footer {
   padding: 120px 0;
 }
 
+.goal-svg {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  margin-bottom: 8px;
+}
+
+.goal-logo {
+  margin-left: 100px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -353,4 +369,38 @@ footer {
 .page-footer {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer-content {
+  display: flex;
+}
+.footer-item {
+  margin-right: 120px;
+}
+
+.social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.social-list {
+  display: flex;
+  column-gap: 16px;
+}
+.social-item {
+}
+.social-link {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-svg {
+  fill: #ffffff;
 }
