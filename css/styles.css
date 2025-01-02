@@ -86,9 +86,21 @@ footer {
 }
 
 .nav-item-link {
+}
+
+.nav-item-link {
   position: relative;
-  color: #404bbf;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-item-link:hover,
+.nav-item-link:focus {
+  color: #404bbf;
 }
 
 .nav-item-link::after {
@@ -118,19 +130,6 @@ footer {
 
 .nav-item {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-item-link {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  padding: 24px 0;
-}
-
-.nav-item-link:hover,
-.nav-item-link:focus {
-  color: #404bbf;
 }
 
 .nav-studio {
@@ -521,7 +520,7 @@ footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .social-link:hover,
